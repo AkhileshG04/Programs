@@ -143,14 +143,14 @@ public static void main(String[] args) {
 		
 		  public class ExcelWrite {
 				public static Object[][] data = new Object[5][2];
-				
+				 //Function to write data into data object
 				public static void ObjData(int RowC,int ColC,String s)
 				{
 					data[RowC][ColC]=s;
 				}
 				
 				public static void Write() {
-			       data[0][0]="OUTPUT POWER";
+			       data[0][0]="OUTPUT POWER";//FIrst Row Of Excel Sheet
 			       data[0][1]="Result";
 					XSSFWorkbook workbook = new XSSFWorkbook();
 					XSSFSheet sheet = workbook.createSheet("BMW_OUTPUT");
