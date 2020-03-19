@@ -55,7 +55,8 @@ import com.hotels.datasources.Read_Excel;
 		  }	  
 			
 		  //Scroll Up/Down
-		  
+-------------------------------------------------SCROLL UP OR DOWN----------------------------------------------------------------------------
+	
 		  JavascriptExecutor js = (JavascriptExecutor) driver;
 	      js.executeScript("window.scrollBy(0,-600)", "");
 	      
